@@ -1,6 +1,6 @@
 /*DOMinate {{ VERSION }} by Adrian Sieber (adriansieber.com)*/
 
-DOMinate = function dom(array, //Array containing the DOM fragment in JsonML
+var DOMinate = module.exports = function dom(array, //Array containing the DOM fragment in JsonML
                   namespace, //Namespace
                   returnObject) { //Contains elements identified by their id
 
